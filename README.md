@@ -13,7 +13,11 @@ O objetivo é explorar conceitos modernos de desenvolvimento web, como SSR (Serv
 - **TypeScript** — Superset de JavaScript que adiciona tipagem estática, garantindo maior segurança no código.  
 - **Tailwind CSS** — Framework utilitário para estilização rápida e responsiva, mantendo o código CSS enxuto e consistente.  
 - **Vercel** — Plataforma de deploy otimizada para Next.js.
+
+
 =======
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
