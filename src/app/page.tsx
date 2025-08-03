@@ -1,12 +1,14 @@
-"use client";
-
+import { PostsList } from "@/components/PostsList";
 import { SpinLoader } from "@/components/SpinLoader";
-import clsx from "clsx";
+import { Suspense } from "react";
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <div>
-      <SpinLoader className="bg-slate-50" />
+      <h1>Header do blog</h1>
+      <Suspense fallback={<SpinLoader />}>
+        <PostsList />
+      </Suspense>
     </div>
   );
 }
