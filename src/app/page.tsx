@@ -1,14 +1,20 @@
+import { Container } from "@/components/Container";
 import { PostsList } from "@/components/PostsList";
 import { SpinLoader } from "@/components/SpinLoader";
 import { Suspense } from "react";
 
 export default async function HomePage() {
   return (
-    <div>
-      <h1>Header do blog</h1>
+    <Container>
+      <header>
+        <h1 className="font-bold text-6xl text-center py-8">Header do blog</h1>
+      </header>
       <Suspense fallback={<SpinLoader />}>
         <PostsList />
       </Suspense>
-    </div>
+      <footer>
+        <p>Footer do blog</p>
+      </footer>
+    </Container>
   );
 }
