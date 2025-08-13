@@ -13,6 +13,18 @@
       "author": "Isabela Nunes"
     },
     {
+      "id": "89f87dd4-7684-4c16-b376-616291bd199f",
+      "title": "Sistema Solar ultra realista",
+      "slug": "sistema-solar-ultra-realista",
+      "excerpt": "O Next.js também é uma boa escolha para quem quer se preocupar com performance e SEO.",
+      "content": "O Next.js também é uma boa escolha para quem quer se preocupar com performance e SEO.",
+      "coverImageUrl": "/images/solar_system.png",
+      "published": true,
+      "createdAt": "2025-04-08T00:24:38.616Z",
+      "updatedAt": "2025-04-08T00:33:56.907Z",
+      "author": "Isabela Nunes"
+    },
+    {
       "id": "afa086e4-53e4-492d-acf2-7c2966d83fcd",
       "title": "Dicas para manter a saúde mental em dia",
       "slug": "dicas-para-manter-a-saude-mental-em-dia",
@@ -59,30 +71,6 @@
       "createdAt": "2025-03-30T07:11:33",
       "updatedAt": "2025-04-05T00:14:03.175Z",
       "author": "Lucas Lima"
-    },
-    {
-      "id": "76396dd3-9581-43b5-856d-fe1a78714e8c",
-      "title": "Os desafios do trabalho remoto moderno",
-      "slug": "os-desafios-do-trabalho-remoto-moderno",
-      "excerpt": "Ele surgiu como uma solução para simplificar tarefas comuns que os desenvolvedores enfrentam ao criar sites e aplicações.",
-      "content": "Ele surgiu como uma solução para simplificar tarefas comuns que os desenvolvedores enfrentam ao criar sites e aplicações.",
-      "coverImageUrl": "/images/bryen_1.png",
-      "published": true,
-      "createdAt": "2025-03-08T13:13:13",
-      "updatedAt": "2025-03-08T13:13:13",
-      "author": "João Silva"
-    },
-    {
-      "id": "bf5c7dae-06a4-4155-9c01-a56e02956496",
-      "title": "Como manter o foco no mundo digital",
-      "slug": "como-manter-o-foco-no-mundo-digital",
-      "excerpt": "Next.js é um framework de desenvolvimento criado para facilitar a construção de aplicações web modernas usando React.",
-      "content": "Next.js é um framework de desenvolvimento criado para facilitar a construção de aplicações web modernas usando React.",
-      "coverImageUrl": "/images/bryen_0.png",
-      "published": true,
-      "createdAt": "2025-02-22T04:32:54",
-      "updatedAt": "2025-02-22T04:32:54",
-      "author": "Ana Costa"
     },
     {
       "id": "bc9a540f-66a9-4ab0-8d50-6216ab1cac53",

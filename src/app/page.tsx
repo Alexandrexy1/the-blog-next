@@ -2,34 +2,34 @@ import { Container } from "@/components/Container";
 import { Header } from "@/components/Header";
 import { PostsList } from "@/components/PostsList";
 import { SpinLoader } from "@/components/SpinLoader";
-import Link from "next/link";
-import Image from "next/image";
 import { Suspense } from "react";
+import { PostHeading } from "@/components/PostHeading";
+import { PostCoverImage } from "@/components/PostCoverImage";
 
 export default async function HomePage() {
   return (
     <Container>
       <Header />
       <section className="grid grid-cols-1 gap-8 mb-14 sm:grid-cols-2 group">
-        <Link href="#" className="w-full h-full overflow-hidden rounded-xl">
-          <Image
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition"
-            src="/images/solar_system.png"
-            width={1200}
-            height={720}
-            alt="titulo do post"
-            priority
-          />
-        </Link>
+        <PostCoverImage
+          linkProps={{
+            href: `/`,
+          }}
+          imageProps={{
+            src: "/images/solar_system.png",
+            width: 1200,
+            height: 720,
+            priority: true,
+            alt: "Solar System",
+          }}
+        />
         <div className="flex flex-col sm:justify-center">
           <time dateTime="2025-08-08" className="text-slate-600 text-sm">
             08/08/2025 17:40
           </time>
-          <h1 className="font-extrabold text-2xl/tight mb-4 sm:text-4xl">
-            <Link href="#">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </Link>
-          </h1>
+          <PostHeading url="#" as="h1">
+            Sistema Solar
+          </PostHeading>
           <p>
             Ratione et nam rem perferendis repellendus numquam vero accusantium
             voluptate voluptatum iste ab laborum assumenda reiciendis molestias
